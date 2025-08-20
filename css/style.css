@@ -69,5 +69,13 @@
     color: gainsboro;
     font-size: 30px;
     text-shadow: 1px 1px 3px black;
-    
+
+}
+
+.about-project-text-box{
+    border: solid 3px blue;
+}
+
+.about-project-text{
+    color: blue;
 }
