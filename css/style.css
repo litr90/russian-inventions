@@ -39,8 +39,35 @@
     margin-right: 7px;
     cursor: pointer;
     padding: 6px 6px;
+    color: white;
 }
 
 .header-button-enter:hover{
     background-color: rgb(163, 235, 255);
+}
+
+.picture{
+    box-shadow: 7px;
+}
+
+.name{
+    background-image: url(/img/Mechanical-exfoliation-method2.jpg);
+    background-size: auto;
+}
+
+.name-text{
+    padding-top: 150px;
+    justify-self: center;
+    color: rgb(205, 242, 255);
+    font-size: 60px;
+    text-shadow: 1px 3px 7px black;
+}
+
+.name-text-small{
+    justify-self: center;
+    padding-bottom: 150px;
+    color: gainsboro;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+    
 }
