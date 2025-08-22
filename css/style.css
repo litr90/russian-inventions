@@ -74,8 +74,21 @@
 
 .about-project-text-box{
     border: solid 3px blue;
+    margin-bottom: 30px;
 }
 
 .about-project-text{
     color: blue;
+}
+
+.centuries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.centuries-cart{
+    border: solid 3px blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
 }
