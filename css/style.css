@@ -87,15 +87,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: solid 2px blue;
     gap: 100px;
+    margin-bottom: 40px;
 }
 
 .centuries-card{
-    border: solid 3px blue;
     height: 60px;
     /* padding-left: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(rgb(0, 110, 255), rgb(255 255 255));
+    color: white;
 }
 
 .centuries-card-links{
@@ -106,16 +108,42 @@
     font-weight: bold;
 }
 
+.mechanics-box{
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 110, 255));
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
 .mechanics{
-    border: solid 3px rgb(0, 81, 255);
+    text-align: center
 }
 
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
 }
 
 .card{
     border: solid 3px rgb(0, 81, 255);
+    width: 50%;
+    max-width: 100%;
+    margin-left: 25%;
+    padding-left: 3px;
+    background-color: rgba(255, 255, 255, 0.422);
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.electricity-and-magnetism-box{
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 128, 255));
+    padding-top: 10px;
+}
+
+.optics-box{
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 140, 255));
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
