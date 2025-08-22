@@ -58,7 +58,7 @@
 .name-text{
     padding-top: 150px;
     justify-self: center;
-    color: rgb(112, 217, 255);
+    color: rgb(134, 223, 255);
     font-size: 50px;
     text-shadow: 1px 3px 7px black;
 }
@@ -78,7 +78,7 @@
 }
 
 .about-project-text{
-    color: blue;
+    font-weight: bold;
 }
 
 .centuries{
@@ -93,4 +93,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 110px;
+}
+
+.centuries-cart-links{
+    display: none;
 }
