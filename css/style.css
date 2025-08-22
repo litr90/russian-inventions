@@ -46,16 +46,17 @@
     background-color: rgb(0, 200, 255);
 }
 
-.picture{
-    box-shadow: 7px;
+.intro{
+    margin-bottom: 15px;
 }
 
-.name{
-    background-image: url(/img/Mechanical-exfoliation-method2.jpg);
+.intro-name{
+    background-image: url("../img/Mechanical-exfoliation-method2.jpg");
     background-size: auto;
+    box-shadow: 1px 3px 3px rgb(59, 59, 59);
 }
 
-.name-text{
+.intro-name-text{
     padding-top: 150px;
     justify-self: center;
     color: rgb(134, 223, 255);
@@ -63,7 +64,7 @@
     text-shadow: 1px 3px 7px black;
 }
 
-.name-text-small{
+.intro-name-text-small{
     justify-self: center;
     padding-bottom: 150px;
     color: gainsboro;
@@ -85,16 +86,36 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: solid 2px blue;
+    gap: 100px;
 }
 
-.centuries-cart{
-    margin-right: 50px;
+.centuries-card{
     border: solid 3px blue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 110px;
+    height: 60px;
+    /* padding-left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.centuries-cart-links{
+.centuries-card-links{
     display: none;
+}
+
+.mechanics-18-century{
+    font-weight: bold;
+}
+
+.mechanics{
+    border: solid 3px rgb(0, 81, 255);
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card{
+    border: solid 3px rgb(0, 81, 255);
 }
