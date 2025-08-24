@@ -105,7 +105,9 @@
 }
 
 .mechanics-18-century{
+    padding-left: 7px;
     font-weight: bold;
+    background-color: rgb(0, 140, 255);
 }
 
 .mechanics-box{
@@ -144,6 +146,12 @@
 
 .optics-box{
     background: radial-gradient(rgb(255, 255, 255), rgb(0, 140, 255));
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.termodinamycs-box{
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 162, 255));
     padding-bottom: 15px;
     padding-top: 10px;
 }
