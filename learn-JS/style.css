@@ -1,0 +1,21 @@
+.red{
+    color: red;
+    font-size: large;
+}
+
+.green{
+    color: green;
+    font-size: small;
+}
+
+.Shadow{
+    background-color: rgb(238, 255, 0);
+}
+
+.button{
+    border: red 4px double;
+}
+
+.blue-bg{
+    background-color: black;
+}
