@@ -90,11 +90,11 @@ const button_open_modal_5 = document.querySelector('#button-open-modal-5');
 const button_close_modal_5 = document.querySelector('#button-close-modal-5');
 const modal_5 = document.querySelector('#modal-5')
 
-button_open_modal_1.addEventListener('click', () =>{
+button_open_modal_5.addEventListener('click', () =>{
     // modal_1.classList.toggle('header-nav-links-active');
     modal_5.style.display = 'block';
 });
-button_close_modal_1.addEventListener('click', () =>{
+button_close_modal_5.addEventListener('click', () =>{
     modal_5.style.display = 'none';
 });
 
