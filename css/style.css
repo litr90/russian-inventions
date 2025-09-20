@@ -152,19 +152,19 @@
 .centuries{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
     gap: 100px;
     margin-bottom: 40px;
 }
 
 .centuries-card{
-    height: 60px;
-    /* padding-left: 50%; */
+    /* height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: radial-gradient(rgb(0, 110, 255), rgb(255 255 255));
-    color: white;
+    color: white; */
+    display: none;
 }
 
 .centuries-card-links{
