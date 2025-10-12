@@ -226,9 +226,9 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_11_5 = document.querySelector('#button-open-modal-11.5');
-const button_close_modal_11_5 = document.querySelector('#button-close-modal-11.5');
-const modal_11_5 = document.querySelector('#modal-11.5')
+const button_open_modal_11_5 = document.querySelector('#button-open-modal-115');
+const button_close_modal_11_5 = document.querySelector('#button-close-modal-115');
+const modal_11_5 = document.querySelector('#modal-115')
 
 button_open_modal_11_5.addEventListener('click', () =>{
     // modal_1.classList.toggle('header-nav-links-active');
