@@ -226,6 +226,26 @@ document.addEventListener('click', function(event) {
     
 });
 
+const button_open_modal_11_5 = document.querySelector('#button-open-modal-11.5');
+const button_close_modal_11_5 = document.querySelector('#button-close-modal-11.5');
+const modal_11_5 = document.querySelector('#modal-11.5')
+
+button_open_modal_11_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_11_5.style.display = 'block';
+});
+button_close_modal_11_5.addEventListener('click', () =>{
+    modal_11_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_11_5) {
+        // if (event.target !== modal_1)
+        modal_11_5.style.display = 'none';
+    };
+    
+});
+
 const button_open_modal_12 = document.querySelector('#button-open-modal-12');
 const button_close_modal_12 = document.querySelector('#button-close-modal-12');
 const modal_12 = document.querySelector('#modal-12')
