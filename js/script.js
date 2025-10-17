@@ -506,25 +506,25 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_24 = document.querySelector('#button-open-modal-24');
-const button_close_modal_24 = document.querySelector('#button-close-modal-24');
-const modal_24 = document.querySelector('#modal-24')
+// const button_open_modal_24 = document.querySelector('#button-open-modal-24');
+// const button_close_modal_24 = document.querySelector('#button-close-modal-24');
+// const modal_24 = document.querySelector('#modal-24')
 
-button_open_modal_24.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_24.style.display = 'block';
-});
-button_close_modal_24.addEventListener('click', () =>{
-    modal_24.style.display = 'none';
-});
+// button_open_modal_24.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_24.style.display = 'block';
+// });
+// button_close_modal_24.addEventListener('click', () =>{
+//     modal_24.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_24) {
-        // if (event.target !== modal_1)
-        modal_24.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_24) {
+//         // if (event.target !== modal_1)
+//         modal_24.style.display = 'none';
+//     };
     
-});
+// });
 
 const button_open_modal_25 = document.querySelector('#button-open-modal-25');
 const button_close_modal_25 = document.querySelector('#button-close-modal-25');
@@ -666,65 +666,65 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_32 = document.querySelector('#button-open-modal-32');
-const button_close_modal_32 = document.querySelector('#button-close-modal-32');
-const modal_32 = document.querySelector('#modal-32')
+// const button_open_modal_32 = document.querySelector('#button-open-modal-32');
+// const button_close_modal_32 = document.querySelector('#button-close-modal-32');
+// const modal_32 = document.querySelector('#modal-32')
 
-button_open_modal_32.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_32.style.display = 'block';
-});
-button_close_modal_32.addEventListener('click', () =>{
-    modal_32.style.display = 'none';
-});
+// button_open_modal_32.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_32.style.display = 'block';
+// });
+// button_close_modal_32.addEventListener('click', () =>{
+//     modal_32.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_32) {
-        // if (event.target !== modal_1)
-        modal_32.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_32) {
+//         // if (event.target !== modal_1)
+//         modal_32.style.display = 'none';
+//     };
     
-});
+// });
 
-const button_open_modal_33 = document.querySelector('#button-open-modal-33');
-const button_close_modal_33 = document.querySelector('#button-close-modal-33');
-const modal_33 = document.querySelector('#modal-33')
+// const button_open_modal_33 = document.querySelector('#button-open-modal-33');
+// const button_close_modal_33 = document.querySelector('#button-close-modal-33');
+// const modal_33 = document.querySelector('#modal-33')
 
-button_open_modal_33.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_33.style.display = 'block';
-});
-button_close_modal_33.addEventListener('click', () =>{
-    modal_33.style.display = 'none';
-});
+// button_open_modal_33.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_33.style.display = 'block';
+// });
+// button_close_modal_33.addEventListener('click', () =>{
+//     modal_33.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_33) {
-        // if (event.target !== modal_1)
-        modal_33.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_33) {
+//         // if (event.target !== modal_1)
+//         modal_33.style.display = 'none';
+//     };
     
-});
+// });
 
-const button_open_modal_34 = document.querySelector('#button-open-modal-34');
-const button_close_modal_34 = document.querySelector('#button-close-modal-34');
-const modal_34 = document.querySelector('#modal-34')
+// const button_open_modal_34 = document.querySelector('#button-open-modal-34');
+// const button_close_modal_34 = document.querySelector('#button-close-modal-34');
+// const modal_34 = document.querySelector('#modal-34')
 
-button_open_modal_34.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_34.style.display = 'block';
-});
-button_close_modal_34.addEventListener('click', () =>{
-    modal_34.style.display = 'none';
-});
+// button_open_modal_34.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_34.style.display = 'block';
+// });
+// button_close_modal_34.addEventListener('click', () =>{
+//     modal_34.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_34) {
-        // if (event.target !== modal_1)
-        modal_34.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_34) {
+//         // if (event.target !== modal_1)
+//         modal_34.style.display = 'none';
+//     };
     
-});
+// });
 
 const button_open_modal_35 = document.querySelector('#button-open-modal-35');
 const button_close_modal_35 = document.querySelector('#button-close-modal-35');
@@ -788,7 +788,7 @@ document.addEventListener('click', function(event) {
 
 const button_open_modal_38 = document.querySelector('#button-open-modal-38');
 const button_close_modal_38 = document.querySelector('#button-close-modal-38');
-const modal_38 = document.querySelector('#modal-34')
+const modal_38 = document.querySelector('#modal-38')
 
 button_open_modal_38.addEventListener('click', () =>{
     // modal_1.classList.toggle('header-nav-links-active');

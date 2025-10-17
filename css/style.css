@@ -124,7 +124,7 @@
     margin: 10%;
     padding: 3px;
     overflow: scroll;
-    max-height: 80vh;
+    max-height: 70vh;
 }
 
 .modal-content-goals{
@@ -186,6 +186,7 @@
     font-weight: bold;
     background-color: rgb(0, 140, 255);
     scroll-margin-top: 100px;
+    font-size: 20pt;
 }
 
 .mechanics-box{
@@ -195,7 +196,9 @@
 }
 
 .mechanics{
-    text-align: center
+    text-align: center;
+    font-size: 15pt;
+    
 }
 
 .box{
@@ -301,3 +304,7 @@ p{
 /* .button-close-modal{
     position: fixed;
 } */
+
+b{
+    padding-left: 3px;
+}
