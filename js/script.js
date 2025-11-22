@@ -626,25 +626,25 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_29 = document.querySelector('#button-open-modal-29');
-const button_close_modal_29 = document.querySelector('#button-close-modal-29');
-const modal_29 = document.querySelector('#modal-29')
+// const button_open_modal_29 = document.querySelector('#button-open-modal-29');
+// const button_close_modal_29 = document.querySelector('#button-close-modal-29');
+// const modal_29 = document.querySelector('#modal-29')
 
-button_open_modal_29.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_29.style.display = 'block';
-});
-button_close_modal_29.addEventListener('click', () =>{
-    modal_29.style.display = 'none';
-});
+// button_open_modal_29.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_29.style.display = 'block';
+// });
+// button_close_modal_29.addEventListener('click', () =>{
+//     modal_29.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_29) {
-        // if (event.target !== modal_1)
-        modal_29.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_29) {
+//         // if (event.target !== modal_1)
+//         modal_29.style.display = 'none';
+//     };
     
-});
+// });
 
 const button_open_modal_30 = document.querySelector('#button-open-modal-30');
 const button_close_modal_30 = document.querySelector('#button-close-modal-30');
