@@ -586,6 +586,26 @@ document.addEventListener('click', function(event) {
     
 });
 
+const button_open_modal_27_1_5 = document.querySelector('#button-open-modal-27-1-5');
+const button_close_modal_27_1_5 = document.querySelector('#button-close-modal-27-1-5');
+const modal_27_1_5 = document.querySelector('#modal-27-1-5')
+
+button_open_modal_27_1_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_27_1_5.style.display = 'block';
+});
+button_close_modal_27_1_5.addEventListener('click', () =>{
+    modal_27_1_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_27_1_5) {
+        // if (event.target !== modal_1)
+        modal_27_1_5.style.display = 'none';
+    };
+    
+});
+
 const button_open_modal_27_5 = document.querySelector('#button-open-modal-27-5');
 const button_close_modal_27_5 = document.querySelector('#button-close-modal-27-5');
 const modal_27_5 = document.querySelector('#modal-27-5')
@@ -612,7 +632,7 @@ const modal_28 = document.querySelector('#modal-28')
 
 button_open_modal_28.addEventListener('click', () =>{
     // modal_1.classList.toggle('header-nav-links-active');
-    modal_23.style.display = 'block';
+    modal_28.style.display = 'block';
 });
 button_close_modal_28.addEventListener('click', () =>{
     modal_28.style.display = 'none';
@@ -622,6 +642,26 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_28) {
         // if (event.target !== modal_1)
         modal_28.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_28_5 = document.querySelector('#button-open-modal-28-5');
+const button_close_modal_28_5 = document.querySelector('#button-close-modal-28-5');
+const modal_28_5 = document.querySelector('#modal-28-5')
+
+button_open_modal_28_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_28_5.style.display = 'block';
+});
+button_close_modal_28_5.addEventListener('click', () =>{
+    modal_28_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_28_5) {
+        // if (event.target !== modal_1)
+        modal_28_5.style.display = 'none';
     };
     
 });
@@ -682,6 +722,26 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_31) {
         // if (event.target !== modal_1)
         modal_31.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_31_5 = document.querySelector('#button-open-modal-31-5');
+const button_close_modal_31_5 = document.querySelector('#button-close-modal-31-5');
+const modal_31_5 = document.querySelector('#modal-31-5')
+
+button_open_modal_31_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_31_5.style.display = 'block';
+});
+button_close_modal_31_5.addEventListener('click', () =>{
+    modal_31_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_31_5) {
+        // if (event.target !== modal_1)
+        modal_31_5.style.display = 'none';
     };
     
 });
@@ -762,6 +822,26 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_35) {
         // if (event.target !== modal_1)
         modal_35.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_35_5 = document.querySelector('#button-open-modal-35-5');
+const button_close_modal_35_5 = document.querySelector('#button-close-modal-35-5');
+const modal_35_5 = document.querySelector('#modal-35-5')
+
+button_open_modal_35_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_35_5.style.display = 'block';
+});
+button_close_modal_35_5.addEventListener('click', () =>{
+    modal_35_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_35_5) {
+        // if (event.target !== modal_1)
+        modal_35_5.style.display = 'none';
     };
     
 });
