@@ -306,6 +306,66 @@ document.addEventListener('click', function(event) {
     
 });
 
+const button_open_modal_13_5 = document.querySelector('#button-open-modal-13-5');
+const button_close_modal_13_5 = document.querySelector('#button-close-modal-13-5');
+const modal_13_5 = document.querySelector('#modal-13-5')
+
+button_open_modal_13_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_13_5.style.display = 'block';
+});
+button_close_modal_13_5.addEventListener('click', () =>{
+    modal_13_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_13_5) {
+        // if (event.target !== modal_1)
+        modal_13_5.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_13_6 = document.querySelector('#button-open-modal-13-6');
+const button_close_modal_13_6 = document.querySelector('#button-close-modal-13-6');
+const modal_13_6 = document.querySelector('#modal-13-6')
+
+button_open_modal_13_6.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_13_6.style.display = 'block';
+});
+button_close_modal_13_6.addEventListener('click', () =>{
+    modal_13_6.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_13_6) {
+        // if (event.target !== modal_1)
+        modal_13_6.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_13_7 = document.querySelector('#button-open-modal-13-7');
+const button_close_modal_13_7 = document.querySelector('#button-close-modal-13-7');
+const modal_13_7 = document.querySelector('#modal-13-7')
+
+button_open_modal_13_7.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_13_7.style.display = 'block';
+});
+button_close_modal_13_7.addEventListener('click', () =>{
+    modal_13_7.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_13_7) {
+        // if (event.target !== modal_1)
+        modal_13_7.style.display = 'none';
+    };
+    
+});
+
 const button_open_modal_14 = document.querySelector('#button-open-modal-14');
 const button_close_modal_14 = document.querySelector('#button-close-modal-14');
 const modal_14 = document.querySelector('#modal-14')
@@ -342,6 +402,24 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_15) {
         // if (event.target !== modal_1)
         modal_15.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_15_5 = document.querySelector('#button-open-modal-15-5');
+const button_close_modal_15_5 = document.querySelector('#button-close-modal-15-5');
+const modal_15_5 = document.querySelector('#modal-15-5')
+
+button_open_modal_15_5.addEventListener('click', () =>{
+    modal_15_5.style.display = 'block';
+});
+button_close_modal_15_5.addEventListener('click', () =>{
+    modal_15_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_15_5) {
+        modal_15_5.style.display = 'none';
     };
     
 });
@@ -582,6 +660,26 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_27) {
         // if (event.target !== modal_1)
         modal_27.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_27_0_5 = document.querySelector('#button-open-modal-27-0-5');
+const button_close_modal_27_0_5 = document.querySelector('#button-close-modal-27-0-5');
+const modal_27_0_5 = document.querySelector('#modal-27-0-5')
+
+button_open_modal_27_0_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_27_0_5.style.display = 'block';
+});
+button_close_modal_27_0_5.addEventListener('click', () =>{
+    modal_27_0_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_27_0_5) {
+        // if (event.target !== modal_1)
+        modal_27_0_5.style.display = 'none';
     };
     
 });
