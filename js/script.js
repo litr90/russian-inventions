@@ -664,26 +664,6 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_27_0_5 = document.querySelector('#button-open-modal-27-0-5');
-const button_close_modal_27_0_5 = document.querySelector('#button-close-modal-27-0-5');
-const modal_27_0_5 = document.querySelector('#modal-27-0-5')
-
-button_open_modal_27_0_5.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_27_0_5.style.display = 'block';
-});
-button_close_modal_27_0_5.addEventListener('click', () =>{
-    modal_27_0_5.style.display = 'none';
-});
-
-document.addEventListener('click', function(event) {
-    if (event.target === modal_27_0_5) {
-        // if (event.target !== modal_1)
-        modal_27_0_5.style.display = 'none';
-    };
-    
-});
-
 const button_open_modal_27_1_5 = document.querySelector('#button-open-modal-27-1-5');
 const button_close_modal_27_1_5 = document.querySelector('#button-close-modal-27-1-5');
 const modal_27_1_5 = document.querySelector('#modal-27-1-5')
@@ -944,25 +924,25 @@ document.addEventListener('click', function(event) {
     
 });
 
-const button_open_modal_36 = document.querySelector('#button-open-modal-36');
-const button_close_modal_36 = document.querySelector('#button-close-modal-36');
-const modal_36 = document.querySelector('#modal-36')
+// const button_open_modal_36 = document.querySelector('#button-open-modal-36');
+// const button_close_modal_36 = document.querySelector('#button-close-modal-36');
+// const modal_36 = document.querySelector('#modal-36')
 
-button_open_modal_36.addEventListener('click', () =>{
-    // modal_1.classList.toggle('header-nav-links-active');
-    modal_36.style.display = 'block';
-});
-button_close_modal_36.addEventListener('click', () =>{
-    modal_36.style.display = 'none';
-});
+// button_open_modal_36.addEventListener('click', () =>{
+//     // modal_1.classList.toggle('header-nav-links-active');
+//     modal_36.style.display = 'block';
+// });
+// button_close_modal_36.addEventListener('click', () =>{
+//     modal_36.style.display = 'none';
+// });
 
-document.addEventListener('click', function(event) {
-    if (event.target === modal_36) {
-        // if (event.target !== modal_1)
-        modal_36.style.display = 'none';
-    };
+// document.addEventListener('click', function(event) {
+//     if (event.target === modal_36) {
+//         // if (event.target !== modal_1)
+//         modal_36.style.display = 'none';
+//     };
     
-});
+// });
 
 const button_open_modal_37 = document.querySelector('#button-open-modal-37');
 const button_close_modal_37 = document.querySelector('#button-close-modal-37');
@@ -980,6 +960,46 @@ document.addEventListener('click', function(event) {
     if (event.target === modal_37) {
         // if (event.target !== modal_1)
         modal_37.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_37_5_1 = document.querySelector('#button-open-modal-37-5-1');
+const button_close_modal_37_5_1 = document.querySelector('#button-close-modal-37-5-1');
+const modal_37_5_1 = document.querySelector('#modal-37-5-1')
+
+button_open_modal_37_5_1.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_37_5_1.style.display = 'block';
+});
+button_close_modal_37_5_1.addEventListener('click', () =>{
+    modal_37_5_1.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_37_5_1) {
+        // if (event.target !== modal_1)
+        modal_37_5_1.style.display = 'none';
+    };
+    
+});
+
+const button_open_modal_37_5_2 = document.querySelector('#button-open-modal-37-5-2');
+const button_close_modal_37_5_2 = document.querySelector('#button-close-modal-37-5-2');
+const modal_37_5_2 = document.querySelector('#modal-37-5-2')
+
+button_open_modal_37_5_2.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_37_5_2.style.display = 'block';
+});
+button_close_modal_37_5_2.addEventListener('click', () =>{
+    modal_37_5_2.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_37_5_2) {
+        // if (event.target !== modal_1)
+        modal_37_5_2.style.display = 'none';
     };
     
 });
