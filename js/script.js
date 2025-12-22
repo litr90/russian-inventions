@@ -684,6 +684,26 @@ document.addEventListener('click', function(event) {
     
 });
 
+const button_open_modal_27_2_5 = document.querySelector('#button-open-modal-27-2-5');
+const button_close_modal_27_2_5 = document.querySelector('#button-close-modal-27-2-5');
+const modal_27_2_5 = document.querySelector('#modal-27-2-5')
+
+button_open_modal_27_2_5.addEventListener('click', () =>{
+    // modal_1.classList.toggle('header-nav-links-active');
+    modal_27_2_5.style.display = 'block';
+});
+button_close_modal_27_2_5.addEventListener('click', () =>{
+    modal_27_2_5.style.display = 'none';
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target === modal_27_2_5) {
+        // if (event.target !== modal_1)
+        modal_27_2_5.style.display = 'none';
+    };
+    
+});
+
 const button_open_modal_27_5 = document.querySelector('#button-open-modal-27-5');
 const button_close_modal_27_5 = document.querySelector('#button-close-modal-27-5');
 const modal_27_5 = document.querySelector('#modal-27-5')
